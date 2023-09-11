@@ -21,7 +21,6 @@ export const ChatSidebar = ({ chatId }) => {
     };
     loadChatList();
   }, [chatId]);
-
   return (
     <div className="flex flex-col overflow-hidden bg-gray-900 text-white">
       <Link
